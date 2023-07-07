@@ -106,10 +106,10 @@
    `(solaire-fringe-face  ((t (:foreground ,everforest-hard-dark-silver))))
 
    ;; mode-line
-   `(mode-line           ((t (:background ,everforest-hard-dark-visual :foreground ,everforest-hard-dark-silver))))
+   `(mode-line           ((t (:background ,everforest-hard-dark-visual :foreground ,everforest-hard-dark-silver :box (:line-width 6 :color ,everforest-hard-dark-visual)))))
    `(mode-line-buffer-id ((t (:weight bold))))
    `(mode-line-emphasis  ((t (:weight bold))))
-   `(mode-line-inactive  ((t (:background ,everforest-hard-dark-bg :foreground ,everforest-hard-dark-silver))))
+   `(mode-line-inactive  ((t (:background ,everforest-hard-dark-bg :foreground ,everforest-hard-dark-silver :box (:line-width 6 :color ,everforest-hard-dark-bg)))))
 
    ;; window-divider
    `(window-divider             ((t (:foreground ,everforest-hard-dark-border))))
